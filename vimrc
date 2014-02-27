@@ -2,6 +2,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 execute pathogen#helptags()
+set encoding=utf-8
 
 " Powerline Settings
 let g:Powerline_symbols = "fancy"
